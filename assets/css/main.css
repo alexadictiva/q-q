@@ -71,6 +71,10 @@ img {
   height: auto;
 }
 
+button {
+  cursor: pointer;
+}
+
 .banner {
   background: linear-gradient(180deg, #302a2c 0%, #2a2f36 100%);
 }
@@ -148,6 +152,11 @@ img {
     width: 70%;
   }
 }
+@media screen and (min-width: 1660px) {
+  .banner .banner1 .banner-content .content2 .img1 {
+    width: 45%;
+  }
+}
 .banner .banner1 .banner-content .content2 .content-text {
   text-align: start;
 }
@@ -214,6 +223,11 @@ img {
     width: 160px;
   }
 }
+@media screen and (min-width: 1660px) {
+  .banner .banner1 .banner-content .content2 .content-text .content3-1 img {
+    width: 230px;
+  }
+}
 .banner .banner1 .banner-content .content2 .content-text .content3-1 img:nth-child(1) {
   margin: 0 -25px 0 0;
 }
@@ -269,6 +283,11 @@ img {
     margin-right: -190px;
   }
 }
+@media screen and (min-width: 1660px) {
+  .banner .banner1 .banner-content .content2 .content-text .content4-1 .cta .btn-cta {
+    margin-right: -350px;
+  }
+}
 .banner .banner1 .banner-content .content2 .content-text .content4-1 .cta .btn-cta img {
   width: 50px;
   margin-bottom: 5px;
@@ -276,6 +295,11 @@ img {
 @media screen and (min-width: 1024px) {
   .banner .banner1 .banner-content .content2 .content-text .content4-1 .cta .btn-cta img {
     width: 64px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .banner .banner1 .banner-content .content2 .content-text .content4-1 .cta .btn-cta img {
+    width: 90px;
   }
 }
 .banner .banner1 .banner-content .content2 .content-text .content4-1 .cta .btn-cta button {
@@ -292,6 +316,13 @@ img {
     font-size: 22px;
   }
 }
+@media screen and (min-width: 1660px) {
+  .banner .banner1 .banner-content .content2 .content-text .content4-1 .cta .btn-cta button {
+    font-size: 30px;
+    width: 310px;
+    padding: 7px;
+  }
+}
 .banner .banner1 .banner-content .content2 .content-text .content4-1 .cta .btn-cta button:hover {
   background-color: #ccc;
 }
@@ -305,10 +336,20 @@ img {
     text-align: center;
   }
 }
+@media screen and (min-width: 1660px) {
+  .banner .banner1 .banner-content .content2 .content-text .content4-1 .cta .cta-text {
+    margin-top: 75px;
+  }
+}
 .banner .banner1 .banner-content .content2 .content-text .content4-1 .cta .cta-text a {
   color: #fff;
   font-weight: 700;
   font-size: 23px;
+}
+@media screen and (min-width: 1660px) {
+  .banner .banner1 .banner-content .content2 .content-text .content4-1 .cta .cta-text a {
+    font-size: 35px;
+  }
 }
 .banner .banner1 .banner-content .content2 .content-text .content4-1 .cta .cta-text p {
   color: #fff;
@@ -319,6 +360,11 @@ img {
   .banner .banner1 .banner-content .content2 .content-text .content4-1 .cta .cta-text p {
     text-align: center;
     font-size: 20px;
+  }
+}
+@media screen and (min-width: 1660px) {
+  .banner .banner1 .banner-content .content2 .content-text .content4-1 .cta .cta-text p {
+    font-size: 30px;
   }
 }
 .banner .banner1 .banner-content .content3 {
@@ -407,6 +453,11 @@ img {
     align-items: center;
   }
 }
+@media screen and (min-width: 1660px) {
+  .section1 .content2-3 .content2 {
+    width: 50%;
+  }
+}
 .section1 .content2-3 .content2 img {
   margin-left: -20px;
 }
@@ -434,6 +485,16 @@ img {
     margin-left: 40px;
     margin-top: -25px;
     letter-spacing: -7px;
+  }
+}
+@media screen and (min-width: 1660px) {
+  .section1 .content2-3 .content2 h2 {
+    font-size: 180px;
+  }
+}
+@media screen and (min-width: 1660px) {
+  .section1 .content2-3 .content3 {
+    width: 50%;
   }
 }
 .section1 .content2-3 .content3 .clocks {
@@ -471,18 +532,49 @@ img {
     width: 157px;
   }
 }
+@media screen and (min-width: 1660px) {
+  .section1 .content2-3 .content3 .clocks img {
+    width: 257px;
+  }
+}
 .section1 .content2-3 .content3 .clocks img:nth-child(1) {
   margin-right: -20px;
+}
+@media screen and (min-width: 1660px) {
+  .section1 .content2-3 .content3 .clocks img:nth-child(1) {
+    margin-right: -30px;
+  }
 }
 .section1 .content2-3 .content3 .clocks img:nth-child(2), .section1 .content2-3 .content3 .clocks img:nth-child(3) {
   margin: 0 -20px;
 }
+@media screen and (min-width: 1660px) {
+  .section1 .content2-3 .content3 .clocks img:nth-child(2), .section1 .content2-3 .content3 .clocks img:nth-child(3) {
+    margin: 0 -30px;
+  }
+}
 .section1 .content2-3 .content3 .clocks img:nth-child(4) {
   margin-left: -20px;
+}
+@media screen and (min-width: 1660px) {
+  .section1 .content2-3 .content3 .clocks img:nth-child(4) {
+    margin-left: -30px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .section1 .content2-3 .content3 .texts {
     margin-top: 100px;
+    text-align: end;
+  }
+}
+@media screen and (min-width: 1660px) {
+  .section1 .content2-3 .content3 .texts {
+    margin-top: 155px;
+  }
+}
+@media screen and (min-width: 1660px) {
+  .section1 .content2-3 .content3 .texts img {
+    width: 85%;
   }
 }
 .section1 .content2-3 .content3 .texts p {
@@ -490,6 +582,11 @@ img {
   text-align: end;
   font-size: 28px;
   margin-top: -12px;
+}
+@media screen and (min-width: 1660px) {
+  .section1 .content2-3 .content3 .texts p {
+    font-size: 40px;
+  }
 }
 
 .section2 {
@@ -508,6 +605,11 @@ img {
   .section2 .content1 {
     order: 2;
     width: 41%;
+  }
+}
+@media screen and (min-width: 1660px) {
+  .section2 .content1 {
+    padding: 30px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -616,9 +718,14 @@ img {
 }
 @media screen and (min-width: 1024px) {
   .section2 .content2 .clocks img:last-child {
-    width: 220px;
     transform: rotate(-31deg);
     width: 260px;
+  }
+}
+@media screen and (min-width: 1660px) {
+  .section2 .content2 .clocks img:last-child {
+    width: 340px;
+    margin-top: 60px;
   }
 }
 
@@ -631,8 +738,19 @@ img {
     justify-content: space-between;
   }
 }
+@media screen and (min-width: 1660px) {
+  .section3 {
+    justify-content: stretch;
+    gap: 250px;
+  }
+}
 .section3 .content1 {
   position: relative;
+}
+@media screen and (min-width: 1660px) {
+  .section3 .content1 {
+    width: 50%;
+  }
 }
 @media screen and (min-width: 1024px) {
   .section3 .content1 img.mobile {
@@ -746,6 +864,11 @@ img {
     width: 200px;
   }
 }
+@media screen and (min-width: 1660px) {
+  .section3 .content2 .clock-content aside:first-child img {
+    width: 230px;
+  }
+}
 @media screen and (min-width: 1024px) {
   .section3 .content2 .clock-content aside:first-child img.mobile {
     display: none;
@@ -776,6 +899,11 @@ img {
 @media screen and (min-width: 1024px) {
   .section3 .content2 .clock-content aside:last-child img {
     width: 200px;
+  }
+}
+@media screen and (min-width: 1660px) {
+  .section3 .content2 .clock-content aside:last-child img {
+    width: 230px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -873,6 +1001,11 @@ img {
     width: 200px;
   }
 }
+@media screen and (min-width: 1660px) {
+  .section4 .clock-content img {
+    width: 280px;
+  }
+}
 @media screen and (min-width: 1024px) {
   .section4 .clock-content img.mobile {
     display: none;
@@ -928,12 +1061,26 @@ img {
   display: block;
   margin-top: -35px;
 }
+@media screen and (min-width: 1660px) {
+  .section4 .texts.desktop img {
+    width: 800px;
+  }
+}
 .section4 .texts.desktop p {
   color: #fff;
   font-weight: 300;
   font-size: 29px;
   width: 200px;
   margin: -15px 0 0 415px;
+  margin-top: -35px;
+}
+@media screen and (min-width: 1660px) {
+  .section4 .texts.desktop p {
+    font-size: 35px;
+    width: 250px;
+    margin-left: 700px;
+    margin-top: -25px;
+  }
 }
 
 .section5 {
@@ -952,12 +1099,23 @@ img {
     display: flex;
   }
 }
+@media screen and (min-width: 1660px) {
+  .section5 {
+    height: 98vh;
+  }
+}
 @media screen and (min-width: 1024px) {
   .section5 .content1 {
     padding: 40px;
     order: 2;
     width: 50%;
     background-color: #a7c71a;
+  }
+}
+@media screen and (min-width: 1660px) {
+  .section5 .content1 {
+    width: 83%;
+    padding: 70px;
   }
 }
 .section5 .content1 h2 {
@@ -972,6 +1130,12 @@ img {
     margin-bottom: 40px;
   }
 }
+@media screen and (min-width: 1660px) {
+  .section5 .content1 h2 {
+    font-size: 80px;
+    line-height: 75px;
+  }
+}
 .section5 .content1 .desck {
   font-size: 18px;
   color: #fff;
@@ -979,6 +1143,11 @@ img {
 @media screen and (min-width: 1024px) {
   .section5 .content1 .desck {
     font-size: 23px;
+  }
+}
+@media screen and (min-width: 1660px) {
+  .section5 .content1 .desck {
+    font-size: 35px;
   }
 }
 .section5 .content1 .cta-content {
@@ -1003,6 +1172,11 @@ img {
     margin: 100px auto 10px;
   }
 }
+@media screen and (min-width: 1024px) {
+  .section5 .content1 .cta-content .carrito.desktop {
+    width: 90px;
+  }
+}
 .section5 .content1 .cta-content .cta1 a {
   background-color: #f58b00;
   border-radius: 50px;
@@ -1018,6 +1192,14 @@ img {
   .section5 .content1 .cta-content .cta1 a {
     width: 230px;
     background-color: #f50035;
+    font-size: 23px;
+    padding: 6px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section5 .content1 .cta-content .cta1 a {
+    width: 310px;
+    font-size: 30px;
   }
 }
 .section5 .content1 .cta-content .warranty1 {
@@ -1057,6 +1239,12 @@ img {
     display: block;
     order: 1;
     width: 50%;
+  }
+}
+@media screen and (min-width: 1660px) {
+  .section5 .content2 img {
+    height: 100%;
+    width: auto;
   }
 }
 
@@ -1109,12 +1297,13 @@ img {
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
-  color: #000;
+  color: #fff;
   margin-bottom: 30px;
   padding: 0 20px;
 }
 @media screen and (min-width: 1024px) {
   .section6 div .big-content h2 {
+    color: #000;
     font-size: 45px;
     line-height: 51px;
   }
@@ -1150,17 +1339,18 @@ img {
   }
 }
 .section6 div .big-content .contents .content1 .form form .inputs .lbl-text {
-  width: 63%;
   display: block;
   font-weight: 400;
-  font-size: 14px;
-  color: #000;
-  border-bottom: #000 solid 1px;
+  font-size: 16px;
+  color: #fff;
+  border-bottom: #fff solid 1px;
 }
 @media screen and (min-width: 768px) {
   .section6 div .big-content .contents .content1 .form form .inputs .lbl-text {
     width: 63%;
     font-size: 16px;
+    color: #000;
+    border-bottom: #000 solid 1px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -1176,8 +1366,8 @@ img {
 .section6 div .big-content .contents .content1 .form form .inputs .lbl-text input[type=text],
 .section6 div .big-content .contents .content1 .form form .inputs .lbl-text input[type=email] {
   width: 100%;
-  font-size: 13px;
-  color: #000;
+  font-size: 14px;
+  color: #fff;
   display: block;
   border: 0;
   outline: none;
@@ -1186,6 +1376,7 @@ img {
 @media screen and (min-width: 1024px) {
   .section6 div .big-content .contents .content1 .form form .inputs .lbl-text input[type=text],
   .section6 div .big-content .contents .content1 .form form .inputs .lbl-text input[type=email] {
+    color: #000;
     font-size: 16px;
   }
 }
@@ -1202,12 +1393,13 @@ img {
   outline: none;
 }
 .section6 div .big-content .contents .content1 .form form .inputs .lbl-chx {
-  font-size: 11px;
-  color: #000;
+  font-size: 13px;
+  color: #fff;
 }
 @media screen and (min-width: 1024px) {
   .section6 div .big-content .contents .content1 .form form .inputs .lbl-chx {
     font-size: 15px;
+    color: #000;
   }
 }
 @media screen and (min-width: 1660px) {
@@ -1251,7 +1443,7 @@ img {
 }
 .section6 div .big-content .contents .content1 .form form .btn-sumit-container button {
   border-radius: 50px;
-  background: #282829;
+  background: rgba(237, 50, 56, 0.6235294118);
   padding: 7px;
   width: 140px;
   font-weight: 400;
@@ -1283,9 +1475,11 @@ img {
   position: relative;
   background-color: transparent;
   padding: 70px 20px 40px;
+  display: none;
 }
 @media screen and (min-width: 1024px) {
   .section6 div .big-content .contents .content2 {
+    display: block;
     width: 60%;
     background-color: transparent;
     padding: 0;
@@ -1349,17 +1543,43 @@ img {
     line-height: 21px;
   }
 }
+.section6 div .big-content .contents .content4 {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .section6 div .big-content .contents .content4 {
+    display: block;
+    position: relative;
+  }
+}
+.section6 div .big-content .contents .content4 img {
+  position: absolute;
+  top: -130px;
+  right: -245px;
+  width: 490px;
+  height: auto;
+}
+@media screen and (min-width: 1660px) {
+  .section6 div .big-content .contents .content4 img {
+    top: -203px;
+    width: 620px;
+  }
+}
 
 .form-footer {
-  background-image: url(./../img/bg7.png);
+  background-image: url(./../img/mobile/bg7-m.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+@media screen and (min-width: 1024px) {
+  .form-footer {
+    background-image: url(./../img/bg7.png);
+  }
+}
 
 footer {
   margin-top: 0;
-  background-color: rgba(255, 255, 255, 0.7019607843);
   padding: 0;
 }
 @media screen and (min-width: 1024px) {
@@ -1386,127 +1606,188 @@ footer .content1 {
 footer .content1 img {
   width: 150px;
 }
-footer .content2 {
+@media screen and (min-width: 1024px) {
+  footer .content1 img {
+    width: 120px;
+  }
+}
+footer .content2-3 {
+  display: flex;
+}
+footer .content2-3 .content2 {
   text-align: center;
+  width: 70%;
+  margin-left: -20px;
 }
 @media screen and (min-width: 1024px) {
-  footer .content2 {
-    width: 50%;
+  footer .content2-3 .content2 {
+    width: 100%;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-  }
-}
-footer .content2 .title-footer {
-  font-weight: 400;
-  font-size: 10px;
-  color: #000;
-}
-@media screen and (min-width: 1024px) {
-  footer .content2 .title-footer {
-    margin: 0;
-    font-size: 16px;
-    width: 40%;
+    gap: 0 30px;
   }
 }
 @media screen and (min-width: 1660px) {
-  footer .content2 .title-footer {
+  footer .content2-3 .content2 {
+    gap: 0;
+  }
+}
+footer .content2-3 .content2 .title-footer {
+  font-weight: 400;
+  font-size: 13px;
+  color: #fff;
+}
+@media screen and (min-width: 1024px) {
+  footer .content2-3 .content2 .title-footer {
+    margin: 0;
+    font-size: 16px;
+    width: 23%;
+    color: #000;
+  }
+}
+@media screen and (min-width: 1660px) {
+  footer .content2-3 .content2 .title-footer {
     width: 30%;
     font-size: 20px;
   }
 }
-footer .content2 .rrss {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
 @media screen and (min-width: 1024px) {
-  footer .content2 .rrss {
-    width: 60%;
-  }
-}
-@media screen and (min-width: 1660px) {
-  footer .content2 .rrss {
+  footer .content2-3 .content2 .rrss {
+    display: flex;
+    align-items: center;
+    gap: 20px;
     width: 70%;
   }
 }
-footer .content2 .rrss a {
+@media screen and (min-width: 1660px) {
+  footer .content2-3 .content2 .rrss {
+    width: 70%;
+  }
+}
+footer .content2-3 .content2 .rrss a {
   width: 110px;
   text-align: center;
   text-decoration: none;
   font-weight: 400;
-  font-size: 10px;
-  color: #000;
+  font-size: 14px;
+  color: #fff;
 }
 @media screen and (min-width: 1024px) {
-  footer .content2 .rrss a {
+  footer .content2-3 .content2 .rrss a {
+    color: #000;
     font-size: 14px;
     width: 100px;
   }
-  footer .content2 .rrss a:last-child {
+  footer .content2-3 .content2 .rrss a:last-child {
     width: 160px;
   }
 }
 @media screen and (min-width: 1660px) {
-  footer .content2 .rrss a {
+  footer .content2-3 .content2 .rrss a {
     font-size: 20px;
   }
-  footer .content2 .rrss a:last-child {
+  footer .content2-3 .content2 .rrss a:last-child {
     width: 200px;
   }
 }
-footer .content2 .rrss a:hover > img {
+footer .content2-3 .content2 .rrss a:hover > img {
   transition: all 0.2s linear;
   transform: scale(1.5);
 }
-footer .content2 .rrss a:hover {
+footer .content2-3 .content2 .rrss a:hover {
   text-decoration: none;
 }
-footer .content2 .rrss a img {
+footer .content2-3 .content2 .rrss a img {
   display: block;
-  width: 24px;
+  width: 34px;
   margin: 0 auto 7px;
 }
 @media screen and (min-width: 768px) {
-  footer .content2 .rrss a img {
+  footer .content2-3 .content2 .rrss a img {
     width: 34px;
   }
 }
 @media screen and (min-width: 1660px) {
-  footer .content2 .rrss a img {
+  footer .content2-3 .content2 .rrss a img {
     width: 45px;
   }
 }
-footer .content2 .page-link {
+@media screen and (min-width: 1024px) {
+  footer .content2-3 .content2 .logo-f {
+    display: none;
+  }
+}
+footer .content2-3 .content2 .loc {
+  margin: 20px 0 25px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 1024px) {
+  footer .content2-3 .content2 .loc {
+    display: none;
+  }
+}
+footer .content2-3 .content2 .loc img {
+  width: 25px;
+}
+footer .content2-3 .content2 .logo-f {
+  width: 56px;
+  margin: 20px 0 25px;
+}
+footer .content2-3 .content2 .page-link {
   font-weight: 400;
   font-size: 13px;
   background: transparent;
   border: 0;
   margin-bottom: 0;
+  padding-bottom: 45px;
 }
 @media screen and (min-width: 1024px) {
-  footer .content2 .page-link {
-    width: 100%;
+  footer .content2-3 .content2 .page-link {
     margin: 10px 0 0;
     padding-left: 230px;
   }
 }
-footer .content2 .page-link a {
-  font-size: 13px;
+@media screen and (min-width: 1660px) {
+  footer .content2-3 .content2 .page-link {
+    width: 70%;
+  }
+}
+footer .content2-3 .content2 .page-link a {
+  font-size: 16px;
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 @media screen and (min-width: 1024px) {
-  footer .content2 .page-link a {
+  footer .content2-3 .content2 .page-link a {
     font-size: 18px;
+    color: #000;
   }
 }
 @media screen and (min-width: 1660px) {
-  footer .content2 .page-link a {
+  footer .content2-3 .content2 .page-link a {
     font-size: 22px;
   }
 }
-footer .content2 .page-link a:hover {
+footer .content2-3 .content2 .page-link a:hover {
   text-decoration: underline;
+}
+footer .content2-3 .content3 {
+  position: relative;
+}
+@media screen and (min-width: 1024px) {
+  footer .content2-3 .content3 {
+    display: none;
+  }
+}
+footer .content2-3 .content3 img {
+  position: absolute;
+  right: -316px;
+  top: -120px;
+  width: 380px;
 }

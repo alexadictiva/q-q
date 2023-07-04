@@ -18,6 +18,9 @@
       align-items: center;
     }
     .content2 {
+      @include biggest-desktop {
+        width: 50%;
+      }
       img {
         margin-left: -20px;
         &.mobile {
@@ -43,9 +46,15 @@
           margin-top: -25px;
           letter-spacing: -7px;
         }
+        @include biggest-desktop {
+          font-size: 180px;
+        }
       }
     }
     .content3 {
+      @include biggest-desktop {
+        width: 50%;
+      }
       .clocks {
         display: flex;
         margin: 45px 0 35px;
@@ -71,29 +80,51 @@
           @include desktop {
             width: 157px;
           }
+          @include biggest-desktop {
+            width: 257px;
+          }
           &:nth-child(1) {
             margin-right: -20px;
+            @include biggest-desktop {
+              margin-right: -30px;
+            }
           }
           &:nth-child(2),
           &:nth-child(3) {
             margin: 0 -20px;
+            @include biggest-desktop {
+              margin: 0 -30px;
+            }
           }
           &:nth-child(4) {
             margin-left: -20px;
+            @include biggest-desktop {
+              margin-left: -30px;
+            }
           }
         }
       }
       .texts {
         @include desktop {
           margin-top: 100px;
+          text-align: end;
+        }
+        @include biggest-desktop {
+          margin-top: 155px;
         }
         img {
+          @include biggest-desktop {
+            width: 85%;
+          }
         }
         p {
           color: #fff;
           text-align: end;
           font-size: 28px;
           margin-top: -12px;
+          @include biggest-desktop {
+            font-size: 40px;
+          }
         }
       }
     }
@@ -110,6 +141,9 @@
     @include desktop {
       order: 2;
       width: 41%;
+    }
+    @include biggest-desktop {
+      padding: 30px;
     }
     .mobile {
       @include desktop {
@@ -203,9 +237,13 @@
         }
         &:last-child {
           @include desktop {
-            width: 220px;
+            // width: 220px;
             transform: rotate(-31deg);
             width: 260px;
+          }
+          @include biggest-desktop {
+            width: 340px;
+            margin-top: 60px;
           }
         }
       }
@@ -218,8 +256,15 @@
     display: flex;
     justify-content: space-between;
   }
+  @include biggest-desktop {
+    justify-content: stretch;
+    gap: 250px;
+  }
   .content1 {
     position: relative;
+    @include biggest-desktop {
+      width: 50%;
+    }
     img {
       &.mobile {
         @include desktop {
@@ -315,6 +360,9 @@
             @include desktop {
               width: 200px;
             }
+            @include biggest-desktop {
+              width: 230px;
+            }
             &.mobile {
               @include desktop {
                 display: none;
@@ -340,6 +388,9 @@
             width: 90px;
             @include desktop {
               width: 200px;
+            }
+            @include biggest-desktop {
+              width: 230px;
             }
             &.mobile {
               @include desktop {
@@ -426,6 +477,9 @@
       @include desktop {
         width: 200px;
       }
+      @include biggest-desktop {
+        width: 280px;
+      }
 
       &.mobile {
         @include desktop {
@@ -478,10 +532,11 @@
       img {
         width: 500px;
         margin-left: 80px;
-
         display: block;
-
         margin-top: -35px;
+        @include biggest-desktop {
+          width: 800px;
+        }
       }
       p {
         color: #fff;
@@ -489,6 +544,13 @@
         font-size: 29px;
         width: 200px;
         margin: -15px 0 0 415px;
+        margin-top: -35px;
+        @include biggest-desktop {
+          font-size: 35px;
+          width: 250px;
+          margin-left: 700px;
+          margin-top: -25px;
+        }
       }
     }
   }
@@ -506,12 +568,19 @@
     background-image: none;
     display: flex;
   }
+  @include biggest-desktop {
+    height: 98vh;
+  }
   .content1 {
     @include desktop {
       padding: 40px;
       order: 2;
       width: 50%;
       background-color: #a7c71a;
+    }
+    @include biggest-desktop {
+      width: 83%;
+      padding: 70px;
     }
     h2 {
       font-weight: 700;
@@ -522,12 +591,19 @@
         line-height: 42px;
         margin-bottom: 40px;
       }
+      @include biggest-desktop {
+        font-size: 80px;
+        line-height: 75px;
+      }
     }
     .desck {
       font-size: 18px;
       color: #fff;
       @include desktop {
         font-size: 23px;
+      }
+      @include biggest-desktop {
+        font-size: 35px;
       }
     }
     .cta-content {
@@ -548,6 +624,9 @@
             width: 75px;
             margin: 100px auto 10px;
           }
+          @include desktop {
+            width: 90px;
+          }
         }
       }
       .cta1 {
@@ -564,6 +643,12 @@
           @include desktop {
             width: 230px;
             background-color: #f50035;
+            font-size: 23px;
+            padding: 6px;
+          }
+          @include desktop {
+            width: 310px;
+            font-size: 30px;
           }
         }
       }
@@ -598,6 +683,12 @@
       display: block;
       order: 1;
       width: 50%;
+    }
+    img {
+      @include biggest-desktop {
+        height: 100%;
+        width: auto;
+      }
     }
   }
 }
@@ -642,10 +733,11 @@
         font-weight: 700;
         font-size: 20px;
         line-height: 27px;
-        color: #000;
+        color: #fff;
         margin-bottom: 30px;
         padding: 0 20px;
         @include desktop {
+          color: #000;
           font-size: 45px;
           line-height: 51px;
         }
@@ -680,15 +772,17 @@
             form {
               .inputs {
                 .lbl-text {
-                  width: 63%;
+                  //width: 63%;
                   display: block;
                   font-weight: 400;
-                  font-size: 14px;
-                  color: #000;
-                  border-bottom: #000 solid 1px;
+                  font-size: 16px;
+                  color: #fff;
+                  border-bottom: #fff solid 1px;
                   @include tablet {
                     width: 63%;
                     font-size: 16px;
+                    color: #000;
+                    border-bottom: #000 solid 1px;
                   }
                   @include desktop {
                     width: 80%;
@@ -700,13 +794,14 @@
                   input[type="text"],
                   input[type="email"] {
                     width: 100%;
-                    font-size: 13px;
-                    color: #000;
+                    font-size: 14px;
+                    color: #fff;
                     display: block;
                     border: 0;
                     outline: none;
                     background-color: transparent;
                     @include desktop {
+                      color: #000;
                       font-size: 16px;
                     }
                     @include biggest-desktop {
@@ -720,10 +815,11 @@
                   }
                 }
                 .lbl-chx {
-                  font-size: 11px;
-                  color: #000;
+                  font-size: 13px;
+                  color: #fff;
                   @include desktop {
                     font-size: 15px;
+                    color: #000;
                   }
                   @include biggest-desktop {
                     font-size: 19px;
@@ -759,7 +855,7 @@
                 }
                 button {
                   border-radius: 50px;
-                  background: #282829;
+                  background: #ed32389f;
                   padding: 7px;
                   width: 140px;
                   font-weight: 400;
@@ -792,7 +888,9 @@
           position: relative;
           background-color: transparent;
           padding: 70px 20px 40px;
+          display: none;
           @include desktop {
+            display: block;
             width: 60%;
             background-color: transparent;
             padding: 0;
@@ -844,6 +942,25 @@
                 padding: 7px;
                 line-height: 21px;
               }
+            }
+          }
+        }
+        .content4 {
+          display: none;
+          @include desktop {
+            display: block;
+            position: relative;
+          }
+          img {
+            position: absolute;
+            top: -130px;
+            right: -245px;
+            width: 490px;
+            height: auto;
+            @include biggest-desktop {
+              top: -203px;
+
+              width: 620px;
             }
           }
         }

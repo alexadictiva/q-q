@@ -1,14 +1,17 @@
 .form-footer {
-  background-image: url(./../img/bg7.png);
+  background-image: url(./../img/mobile/bg7-m.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   // backdrop-filter: blur(10px);
+  @include desktop {
+    background-image: url(./../img/bg7.png);
+  }
 }
 
 footer {
   margin-top: 0;
-  background-color: #ffffffb3;
+  //background-color: #ffffffb3;
   padding: 0;
   @include desktop {
     background-image: url(./../img/iso-logo-blue.svg);
@@ -28,107 +31,163 @@ footer {
     }
     img {
       width: 150px;
+      @include desktop {
+        width: 120px;
+      }
     }
   }
-  .content2 {
-    text-align: center;
-    @include desktop {
-      width: 50%;
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .title-footer {
-      font-weight: 400;
-      font-size: 10px;
-      color: #000;
-      @include desktop {
-        margin: 0;
-        font-size: 16px;
-        width: 40%;
-      }
-      @include biggest-desktop {
-        width: 30%;
-        font-size: 20px;
-      }
-    }
-    .rrss {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 20px;
-      @include desktop {
-        width: 60%;
-      }
-      @include biggest-desktop {
-        width: 70%;
-      }
-      a {
-        width: 110px;
-        text-align: center;
-        text-decoration: none;
-        font-weight: 400;
-        font-size: 10px;
-        color: #000;
-        @include desktop {
-          font-size: 14px;
-          width: 100px;
-          &:last-child {
-            width: 160px;
-          }
-        }
-        @include biggest-desktop {
-          font-size: 20px;
-          &:last-child {
-            width: 200px;
-          }
-        }
-        &:hover > img {
-          transition: all 0.2s linear;
-          transform: scale(1.5);
-        }
-        &:hover {
-          text-decoration: none;
-        }
-        img {
-          display: block;
-          width: 24px;
-          margin: 0 auto 7px;
-
-          @include tablet {
-            width: 34px;
-          }
-          @include biggest-desktop {
-            width: 45px;
-          }
-        }
-      }
-    }
-    .page-link {
-      font-weight: 400;
-      font-size: 13px;
-      background: transparent;
-      border: 0;
-      margin-bottom: 0;
+  .content2-3 {
+    display: flex;
+    .content2 {
+      text-align: center;
+      width: 70%;
+      margin-left: -20px;
 
       @include desktop {
         width: 100%;
-        margin: 10px 0 0;
-        padding-left: 230px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0 30px;
       }
-      a {
+      @include biggest-desktop {
+        gap: 0;
+      }
+      .title-footer {
+        font-weight: 400;
         font-size: 13px;
-        text-decoration: none;
-        color: #000;
+        color: #fff;
         @include desktop {
-          font-size: 18px;
+          margin: 0;
+          font-size: 16px;
+          width: 23%;
+          color: #000;
         }
         @include biggest-desktop {
-          font-size: 22px;
+          width: 30%;
+          font-size: 20px;
         }
-        &:hover {
-          text-decoration: underline;
+      }
+      .rrss {
+        @include desktop {
+          display: flex;
+          align-items: center;
+          // justify-content: center;
+          gap: 20px;
+          width: 70%;
         }
+        @include biggest-desktop {
+          width: 70%;
+        }
+        a {
+          width: 110px;
+          text-align: center;
+          text-decoration: none;
+          font-weight: 400;
+          font-size: 14px;
+          color: #fff;
+          @include desktop {
+            color: #000;
+            font-size: 14px;
+            width: 100px;
+            &:last-child {
+              width: 160px;
+            }
+          }
+          @include biggest-desktop {
+            font-size: 20px;
+            &:last-child {
+              width: 200px;
+            }
+          }
+          &:hover > img {
+            transition: all 0.2s linear;
+            transform: scale(1.5);
+          }
+          &:hover {
+            text-decoration: none;
+          }
+          img {
+            display: block;
+            width: 34px;
+            margin: 0 auto 7px;
+
+            @include tablet {
+              width: 34px;
+            }
+            @include biggest-desktop {
+              width: 45px;
+            }
+          }
+        }
+      }
+      .logo-f {
+        @include desktop {
+          display: none;
+        }
+      }
+      .loc {
+        margin: 20px 0 25px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include desktop {
+          display: none;
+        }
+        img {
+          width: 25px;
+        }
+      }
+      .logo-f {
+        width: 56px;
+        margin: 20px 0 25px;
+      }
+      .page-link {
+        font-weight: 400;
+        font-size: 13px;
+        background: transparent;
+        border: 0;
+        margin-bottom: 0;
+        padding-bottom: 45px;
+
+        @include desktop {
+          //width: 100%;
+          margin: 10px 0 0;
+          padding-left: 230px;
+        }
+        @include biggest-desktop {
+          width: 70%;
+        }
+        a {
+          font-size: 16px;
+          text-decoration: none;
+          color: #fff;
+          @include desktop {
+            font-size: 18px;
+            color: #000;
+          }
+          @include biggest-desktop {
+            font-size: 22px;
+          }
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .content3 {
+      position: relative;
+      @include desktop {
+        display: none;
+      }
+      img {
+        position: absolute;
+        right: -316px;
+        top: -120px;
+        width: 380px;
       }
     }
   }
