@@ -1,57 +1,8 @@
-@font-face {
-  font-family: "Raleway";
-  src: url("./../Raleway-SemiBold.woff2") format("woff2"), url("./../Raleway-SemiBold.woff") format("woff"), url("./../Raleway-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Raleway";
-  src: url("./../Raleway-Bold.woff2") format("woff2"), url("./../Raleway-Bold.woff") format("woff"), url("./../Raleway-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Raleway";
-  src: url("./../Raleway-Black.woff2") format("woff2"), url("./../Raleway-Black.woff") format("woff"), url("./../Raleway-Black.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Raleway";
-  src: url("./../Raleway-Medium.woff2") format("woff2"), url("./../Raleway-Medium.woff") format("woff"), url("./../Raleway-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Raleway";
-  src: url("./../Raleway-Light.woff2") format("woff2"), url("./../Raleway-Light.woff") format("woff"), url("./../Raleway-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Raleway";
-  src: url("./../Raleway-Regular.woff2") format("woff2"), url("./../Raleway-Regular.woff") format("woff"), url("./../Raleway-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Raleway";
-  src: url("./../Raleway-Thin.woff2") format("woff2"), url("./../Raleway-Thin.woff") format("woff"), url("./../Raleway-Thin.ttf") format("truetype");
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap");
 @font-face {
   font-family: "Sattomy";
   src: url("./../Sattomy.woff2") format("woff2"), url("./../Sattomy.woff") format("woff"), url("./../Sattomy.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal;
   font-display: swap;
 }
 * {
@@ -1072,14 +1023,17 @@ button {
   font-size: 29px;
   width: 200px;
   margin: -15px 0 0 415px;
-  margin-top: -35px;
+}
+@media screen and (min-width: 1024px) {
+  .section4 .texts.desktop p {
+    margin-top: -25px;
+  }
 }
 @media screen and (min-width: 1660px) {
   .section4 .texts.desktop p {
     font-size: 35px;
     width: 250px;
     margin-left: 700px;
-    margin-top: -25px;
   }
 }
 

@@ -544,12 +544,13 @@
         font-size: 29px;
         width: 200px;
         margin: -15px 0 0 415px;
-        margin-top: -35px;
+        @include desktop {
+          margin-top: -25px;
+        }
         @include biggest-desktop {
           font-size: 35px;
           width: 250px;
           margin-left: 700px;
-          margin-top: -25px;
         }
       }
     }
