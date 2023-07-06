@@ -29,9 +29,24 @@
           <aside class="content1">
             <img class="logo" src="./assets/icon/logo-white.svg" alt="..." />
           </aside>
-
           <aside class="content2">
-            <img class="img1" src="./assets/img/mobile/img1.png" alt="..." />
+            <picture class="img1">
+              <source
+                media="(max-width: 766px)"
+                srcset="./assets/img/mobile/img1.png"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="./assets/img/tablet/img1.png"
+              />
+              <source
+                media="(min-width: 1366px)"
+                srcset="./assets/img/desktop/img1.png"
+              />
+
+              <img src="./assets/img/mobile/img1.png" alt="..." />
+            </picture>
+
             <div class="content-text">
               <p class="slogan">Pinta tus días de</p>
               <h1><img src="./assets/icon/diversion-img.svg" alt="..." /></h1>
@@ -275,6 +290,7 @@
             <p class="cta1">
               <a href="https://www.oku.com.ar">www.oku.com.ar</a>
             </p>
+            <p class="p1">Garantía y Servicio Técnico</p>
             <img
               class="warranty1"
               src="./assets/icon/warranty-w.svg"
@@ -285,7 +301,7 @@
               src="./assets/icon/warranty-b.svg"
               alt="..."
             />
-            <p class="p">Garantía y Servicio Técnico</p>
+            <p class="p2">Garantía y Servicio Técnico</p>
           </article>
         </article>
         <article class="content2">

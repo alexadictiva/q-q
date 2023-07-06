@@ -424,7 +424,7 @@
     }
     button {
       padding: 2px;
-      width: 130px;
+      width: 160px;
       border-radius: 50px;
       outline: none;
       border: 0;
@@ -655,7 +655,8 @@
       }
       .warranty1 {
         width: 50px;
-        margin: 40px 0;
+        margin: 0;
+        text-shadow: 1px 1px 8px #000;
         @include desktop {
           display: none;
         }
@@ -668,12 +669,21 @@
           margin: 70px auto 5px;
         }
       }
-      .p {
+      .p1 {
+        text-shadow: 0 0 10px black;
+
+        color: #fff;
+        font-size: 18px;
+        @include desktop {
+          display: none;
+        }
+      }
+      .p2 {
         display: none;
+        color: #000;
+        font-size: 23px;
         @include desktop {
           display: block;
-          color: #000;
-          font-size: 23px;
         }
       }
     }

@@ -889,7 +889,7 @@ button {
 }
 .section3 .content3 button {
   padding: 2px;
-  width: 130px;
+  width: 160px;
   border-radius: 50px;
   outline: none;
   border: 0;
@@ -1158,7 +1158,8 @@ button {
 }
 .section5 .content1 .cta-content .warranty1 {
   width: 50px;
-  margin: 40px 0;
+  margin: 0;
+  text-shadow: 1px 1px 8px #000;
 }
 @media screen and (min-width: 1024px) {
   .section5 .content1 .cta-content .warranty1 {
@@ -1175,14 +1176,24 @@ button {
     margin: 70px auto 5px;
   }
 }
-.section5 .content1 .cta-content .p {
-  display: none;
+.section5 .content1 .cta-content .p1 {
+  text-shadow: 0 0 10px black;
+  color: #fff;
+  font-size: 18px;
 }
 @media screen and (min-width: 1024px) {
-  .section5 .content1 .cta-content .p {
+  .section5 .content1 .cta-content .p1 {
+    display: none;
+  }
+}
+.section5 .content1 .cta-content .p2 {
+  display: none;
+  color: #000;
+  font-size: 23px;
+}
+@media screen and (min-width: 1024px) {
+  .section5 .content1 .cta-content .p2 {
     display: block;
-    color: #000;
-    font-size: 23px;
   }
 }
 .section5 .content2 {
@@ -1631,10 +1642,7 @@ footer .content2-3 .content2 .rrss a {
   footer .content2-3 .content2 .rrss a {
     color: #000;
     font-size: 14px;
-    width: 100px;
-  }
-  footer .content2-3 .content2 .rrss a:last-child {
-    width: 160px;
+    width: max-content;
   }
 }
 @media screen and (min-width: 1660px) {
