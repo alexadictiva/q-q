@@ -89,10 +89,7 @@ footer {
           @include desktop {
             color: #000;
             font-size: 14px;
-            width: 100px;
-            &:last-child {
-              width: 160px;
-            }
+            width: max-content;
           }
           @include biggest-desktop {
             font-size: 20px;
