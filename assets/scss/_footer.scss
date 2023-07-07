@@ -38,9 +38,10 @@ footer {
   }
   .content2-3 {
     display: flex;
+    justify-content: space-between;
     .content2 {
       text-align: center;
-      width: 70%;
+      width: 64%;
       margin-left: -20px;
 
       @include desktop {
@@ -182,9 +183,9 @@ footer {
       }
       img {
         position: absolute;
-        right: -316px;
+        right: 0;
         top: -120px;
-        width: 380px;
+        width: 205px;
       }
     }
   }

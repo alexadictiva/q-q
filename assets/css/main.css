@@ -72,7 +72,7 @@ button {
   width: 75px;
 }
 .banner .banner1 .banner-content .content2 {
-  margin-right: -22px;
+  margin-right: -20px;
   text-align: end;
 }
 @media screen and (min-width: 768px) {
@@ -657,14 +657,10 @@ button {
 @media screen and (min-width: 1024px) {
   .section2 .content2 .clocks img.desktop {
     display: block;
+    width: 260px;
   }
 }
-@media screen and (min-width: 1024px) {
-  .section2 .content2 .clocks img:first-child {
-    display: none;
-  }
-}
-.section2 .content2 .clocks img:nth-child(2) {
+.section2 .content2 .clocks img:nth-child(3) {
   transform: rotate(-45deg);
 }
 @media screen and (min-width: 1024px) {
@@ -1578,10 +1574,11 @@ footer .content1 img {
 }
 footer .content2-3 {
   display: flex;
+  justify-content: space-between;
 }
 footer .content2-3 .content2 {
   text-align: center;
-  width: 70%;
+  width: 64%;
   margin-left: -20px;
 }
 @media screen and (min-width: 1024px) {
@@ -1749,7 +1746,7 @@ footer .content2-3 .content3 {
 }
 footer .content2-3 .content3 img {
   position: absolute;
-  right: -316px;
+  right: 0;
   top: -120px;
-  width: 380px;
+  width: 205px;
 }

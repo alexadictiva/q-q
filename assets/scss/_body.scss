@@ -225,14 +225,11 @@
           display: none;
           @include desktop {
             display: block;
+            width: 260px;
           }
         }
-        &:first-child {
-          @include desktop {
-            display: none;
-          }
-        }
-        &:nth-child(2) {
+
+        &:nth-child(3) {
           transform: rotate(-45deg);
         }
         &:last-child {
