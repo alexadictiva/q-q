@@ -834,27 +834,7 @@
                   }
                 }
               }
-              .accounts-autocomplete {
-                display: flex;
-                gap: 15px;
-                justify-content: start;
-                @include desktop {
-                  gap: 25px;
-                  margin-top: 25px;
-                }
-                img {
-                  &:hover {
-                    transition: all 0.2s linear;
-                    transform: scale(1.2);
-                  }
-                  @include desktop {
-                    width: 100px;
-                  }
-                  @include biggest-desktop {
-                    width: 115px;
-                  }
-                }
-              }
+
               .btn-sumit-container {
                 text-align: start;
                 padding-left: 45px;
@@ -965,10 +945,14 @@
             right: -245px;
             width: 490px;
             height: auto;
+            @include desktop {
+              top: -152px;
+              width: 437px;
+            }
             @include biggest-desktop {
               top: -203px;
 
-              width: 620px;
+              width: 563px;
             }
           }
         }
