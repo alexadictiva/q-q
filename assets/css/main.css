@@ -1370,10 +1370,10 @@ button {
 }
 .section6 div .big-content .contents .content1 .form form .btn-sumit-container {
   text-align: start;
-  padding-left: 45px;
 }
 @media screen and (min-width: 1024px) {
   .section6 div .big-content .contents .content1 .form form .btn-sumit-container {
+    padding-left: 45px;
     margin-top: 30px;
   }
 }
