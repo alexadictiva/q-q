@@ -245,10 +245,11 @@ button {
 }
 @media screen and (min-width: 1024px) {
   .banner .banner1 .banner-content .content2 .content-text .content4-1 .cta .btn-cta img {
-    width: 64px;
+    width: 60px;
+    margin-bottom: 8px;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1660px) {
   .banner .banner1 .banner-content .content2 .content-text .content4-1 .cta .btn-cta img {
     width: 90px;
   }
@@ -283,7 +284,7 @@ button {
 }
 @media screen and (min-width: 1024px) {
   .banner .banner1 .banner-content .content2 .content-text .content4-1 .cta .cta-text {
-    width: 600px;
+    width: 620px;
     text-align: center;
   }
 }

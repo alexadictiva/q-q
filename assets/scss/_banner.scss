@@ -162,9 +162,10 @@
                   width: 50px;
                   margin-bottom: 5px;
                   @include desktop {
-                    width: 64px;
+                    width: 60px;
+                    margin-bottom: 8px;
                   }
-                  @include desktop {
+                  @include biggest-desktop {
                     width: 90px;
                   }
                 }
@@ -196,7 +197,7 @@
               }
               .cta-text {
                 @include desktop {
-                  width: 600px;
+                  width: 620px;
                   text-align: center;
                 }
                 @include biggest-desktop {
