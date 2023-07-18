@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message .= "Subscribe a la newsletter: NO\n";
   }
 
-  $destiny = "alexandra220790@gmail.com";
+  $destiny = "alexadictiva@hotmail.com";
   $sender = $_POST['email'];
   $subject = "Formulario de contacto - Enviado por: " . $_POST['name'];
 
