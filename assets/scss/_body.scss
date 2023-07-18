@@ -960,3 +960,31 @@
     }
   }
 }
+
+.modal {
+  background: #00000090;
+  display: block !important;
+  .modal-content {
+    background: #a5c225;
+    color: #ffffff;
+    .modal-footer {
+      border: 0;
+      button {
+        border: 0;
+        outline: none;
+        color: #a5c225;
+        background-color: #fff;
+        padding: 8px 45px;
+
+        border-radius: 4px;
+        &:hover {
+          background-color: #dddddd;
+        }
+        &:focus {
+          border: 0;
+          outline: none;
+        }
+      }
+    }
+  }
+}

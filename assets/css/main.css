@@ -1509,6 +1509,33 @@ button {
   }
 }
 
+.modal {
+  background: rgba(0, 0, 0, 0.5647058824);
+  display: block !important;
+}
+.modal .modal-content {
+  background: #a5c225;
+  color: #ffffff;
+}
+.modal .modal-content .modal-footer {
+  border: 0;
+}
+.modal .modal-content .modal-footer button {
+  border: 0;
+  outline: none;
+  color: #a5c225;
+  background-color: #fff;
+  padding: 8px 45px;
+  border-radius: 4px;
+}
+.modal .modal-content .modal-footer button:hover {
+  background-color: #dddddd;
+}
+.modal .modal-content .modal-footer button:focus {
+  border: 0;
+  outline: none;
+}
+
 .form-footer {
   background-image: url(./../img/mobile/bg7-m.png);
   background-position: center;
